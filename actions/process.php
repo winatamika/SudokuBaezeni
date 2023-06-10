@@ -74,7 +74,7 @@ function saveBoard($solver)
 {
     $serializedBoard = $_POST['board'];
     $board = json_decode($serializedBoard, true);
-    $solver->saveArrayToTxtFile($board, 'sudoku-custom.txt');
+    $solver->saveArrayToTxtFile($board, 'fileIO/sudoku-custom.txt');
 }
 
 function solveFromFile($solver)
