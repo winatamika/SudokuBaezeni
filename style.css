@@ -1,0 +1,44 @@
+.sudoku-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.sudoku-table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.sudoku-table tr:nth-child(3n) td,
+.sudoku-table tr:nth-child(3n-1) td {
+    border-bottom: 2px solid #000;
+}
+
+.sudoku-table tr td:nth-child(3n) {
+    border-right: 2px solid #000;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container button {
+    margin-right: 10px;
+}
